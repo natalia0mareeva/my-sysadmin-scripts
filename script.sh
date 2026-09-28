@@ -1,5 +1,6 @@
 ubuntu@sysadmin-host:~$ cat script.sh
 #!/bin/bash
+# Версия 1.1: добавлена проверка прав на запись в лог
 # script.sh — мониторинг ресурсов системы
 # Раз в N секунд снимает free -h, df -h, uptime и дописывает в monitor.log
 # Использование: bash script.sh
